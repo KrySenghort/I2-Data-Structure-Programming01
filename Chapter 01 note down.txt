@@ -1,0 +1,105 @@
++An algorithm is a step-by-step procedure describing how to solve a problem or reach a goal.
+******************************************************************************************************************************************************
++when we want to create an algorithm we must have variable data type and put its value then create the recipe to calculate or run it to get the result.
+******************************************************************************************************************************************************
++The ways to operate on our code is 
+- create a source code 
+- use compiler to run on the code
+- then compiler transform the code to become machine code(because our computer know just only machine code or assembly language)
+- then machine control or check on it and display the result.
+******************************************************************************************************************************************************
++Algorithm is the best way to solve a given problem, there are some reasons to show
+-time consuming(less and less is more better for operation)
+-memory usage(consider on size of our memory and choose the small size code)
+-code length of applicable programming language(consider on how long is the applicable code and we reduce our code more short and more, it will be better for our processing)
+-complexity(we can use it to solve some difficult problems).
+******************************************************************************************************************************************************
++when a problem is given:
+- we should check on algorithm whether we can solve it by using any algorithm or not.
+- Then consider on speed or complicated is your algorithm can solve the problem.
+- check the result whether it is what we need or not.
+******************************************************************************************************************************************************
++There are some components of algorithm:
+- input ==>  ingredient
+- process(procedure) ==> recipe
+- output ==> food
+******************************************************************************************************************************************************
++Way to write an algorithm:
+- divided a given problem into sub-problems
+- arrange sub-problem in order
+- determine the solution for each sub-problems
+- solve each sub-problems
+- then, the whole problem is solved.
+******************************************************************************************************************************************************
++There are two important guidelines such as:
+- Clarity
+  ==> Semantic(meaning) whether our meaning of algorithm is correct or not for our goal
+  ==> Syntactic(grammar) refers to rule of programming langugue. Ex: in C programming(printf, scanf, semicolon, int main() or main function, bracket(), string" ",place holders(%f,%d,%c,%lf,%s) and some anothers.)
+- Readability:
+  ==> Separation of different informations:
+	  * Declaration: express the data type and moreover.
+	  * Calculation or process: process on each data which we separated it.
+	  * Displaying information: consider or looking on information which is input and displaly.
+- Indentation:
+  ==> use tab , enter , \n , \t, and more anothers to decorate our code to be easy to see and understand.
+******************************************************************************************************************************************************
++The form of an Algorithm, there are such as:
+ var name1,name2......................:type of variable
+ Begin
+  {
+    .......................................................
+    .......................................................
+    .......................................................
+  }
+End........
+******************************************************************************************************************************************************
++The main point in algorithm are:
+	==> read: mean that getting input from user. for example: we use comment "scanf, input,.............".
+	==> write: mean that process to display the result. for example: we use comment "printf, print,....." 	
+******************************************************************************************************************************************************
++Variable is also called identifier
+    ==> it is a holder of value which can be used and throughout the program.
+    ==> it is used to store value in order to reserve memory space it.
+    ==> we use syntax to declare or create a variable for writing algorithm.
++Type of Variable are: integer character float string sequence of character
+******************************************************************************************************************************************************
++weight mass number age(........): refers to integer or float and double.
++gender(M,F) letter(A,B,C,D,E,F,G)........: refers to character which has just only one letter that represent.
++name, title, saying, the prase or statement: refers to sequence of character (called string which is a set of letters).it is placed inside a double quote.Ex:"Kry SengHort","The title of the story is Titanic Movie".
+******************************************************************************************************************************************************
++Rule of variable: 
+==> not start with number or any symbol(+,-,@,#,!,/,&,*,.....)
+==> no space(use underscore instead or camel case instead)
+==> name of variable is case sensitive(Ex: age, Age, AGE, are different names)
+==> in a program, we cannot have two type of the same name(Ex: var age==>integer, var age==>float or double).we cannot write it in one program.
+******************************************************************************************************************************************************
++Example of writing algorithm: suppose that the tax is 3% and a user is required to input a price. As a result we calculate and display the final price including the tax.
+==>
+	const(tax: integer)<==3
+	const(title: string)<=="Result"
+	var price, price_width_tax: float
+	Begin
+		write("Give me the price include tax: ")
+		read(price)
+		price_width <== price + (price*tax)/100
+		write(title)
+		write(price,"dollars include tax.", price_width_tax, "dollars include tax")
+	End;
+******************************************************************************************************************************************************
++Ask a student's information(name, department, birth year,)
+==>
+   var name: sequence of character
+   var age: Integer
+   Begin
+   		write("Enter your name: ")
+		read(name)
+		write("Enter your age: ")
+		read(age)
+		year_birth = 2020 - age
+		
+		write(output or result)
+	End;
+******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+******************************************************************************************************************************************************
+

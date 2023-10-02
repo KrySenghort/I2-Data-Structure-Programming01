@@ -1,0 +1,137 @@
+<==>The data type, there are such as:
+-Integer: refers to the number which have not footstop.
+-Real: refers to the number which are float or double.On the other hand double>float
+-Boolean: refers to decision making into two types(true,false).it is the logical connector.
+-Character: refers to the letter as single.for example: 'A','B'
+-String: refers to the sequence of character.for example: "Apple","My name is Kry SengHort"
+-Operators: refers to the calculation properties(-,+,/,*,%). Mod, Div.
+-Relational Operators: refers to the relation of operating or calculating.
+*************************************************************************************************************************************************************
+<==>Operators:
+	==>  /  : refers to division operation. for example: 3/2=1.5
+	==> Mod : refers to remainder of a division operation. for example 7 Mod 4 = 3
+    ==> Div : refers to a quotient of a division operation(not include fractional part). for example: 3 div 2 = 1. the result has no footstop or no remainder.
+*************************************************************************************************************************************************************
+<==>for example: Let try to predict values of a,b,c below:
+	a=5			==> a is 5,b is unknown, c is unknown
+	b=8			==> a is unknown, b is 8, c is unknown
+	c=10		==> a is unknown, b is unknown, c is 10
+	a=b mod 3   ==> a is 2, b is 8, c is 10
+	b=b div 3   ==> a is 2, b is 2, c is 10
+	b=a div 3   ==> a is 2, b is 0, c is 10
+	c=c div 3   ==> a is 2, b is 0, c is 3
+	b=c mod 2   ==> a is 2, b is 1, c is 3
+	c=c mod 4   ==> a is 2, b is 1, c is 0
+*************************************************************************************************************************************************************
+<==>Real number: is number where are such as float integer and double
+	==> Declaration: float ==> let in data type is %f
+	==> Declaration: double ==> let in data type is %lf
+*************************************************************************************************************************************************************
+<==>Boolean: is a logic variable that contains either true or false
+	==> a=5
+	    if a>7 it will display false
+	    else if a<4 it will display true
+======================================================================================================================================================================
+    ==>operations: AND , OR , NOT
+    Let a,b be boolean values where a is true and b is false
+    	=> (a)AND(b) is false. because for connector AND false is stronger than true. it is true unless both true, and it is false unless at least one among them is false.
+   		=> (a)OR(b) is true. because for connector OR true is stronger than false. it is false unless false both, and it is true unless at least one among them is true.
+    	=> NOT(a) is false. because for connector NOT, it exchange opposite.
+		=> NOT(NOT(a)) is true. because it is opposite from above exchange.
+	==> AND : for input into code, we put &&. Example: a&&b
+	==> OR  : for input into code, we put ||. Example: a||b
+	==> NOT : for input into code, we put !=. Example: a!=b
+*************************************************************************************************************************************************************
+<==>Example: Test the condition below by using Boolean decision making
+var p,q,r: Boolean
+Begin
+     p=true
+	 q=NOT(p)
+	 r=(p AND q) OR (NOT(p) AND NOT(NOT(q)))
+End;
+==> Output: value: 
+					p = true;
+					q = false;
+					r = false;
+*************************************************************************************************************************************************************
+<==>The function has two types such as:
+-Built in function: existing function
+-Custom function: users newly defines it(user-defined function)
+*************************************************************************************************************************************************************
+<==>ASCII CODE: American Standard Code for Information Interchange Code
+-each character has its equivalent numeric code(integer)
+-the basic ASCII characters represent in 7 bits
+-there are 128 possible characters(from 0 to 127)
+*************************************************************************************************************************************************************
+<==>String: is a sequence of any characters and it is written inside double quotes"  ".
+Ex: "The numerical series is convergence and divergence"
+Ex: write in code : char name[]="The numerical series is convergence and divergence"
+==> The function of string, there are such as: 
+	=>concat(string1,string2): means that we concatenate two strings together. 
+	        for example: concat("Hello","my name is Kry SengHort"). Then the Output is: "Hello my name is Kry SengHort".
+	=>length(string): refers to finding number of character in string.
+	        for example: length("Hello ")==>6 characters, length("")==> 0 character, length(concat("Thank"," you"))==> 9 characters, length(" ")==> 1 character.
+	=>substring(p, n, string): find substring positioning at p upward for n characters from a string. in additon, for postion we start from 0.
+	        for example: substring(2,4, "Algorithm")==> "gori", substring(0,5, "I am fine thank you")==> "I am ", substring(6,51,"I am finding the elements of the natural conditions")==> "inding the elements of the natural conditions".
+	=>identifier(index): find a character position at index. On the other hand 
+	        for example: name="Marry"
+		    			 name[0]='M'
+	        			 name[1]='a'
+	        			 name[3]='r'
+	=>stringcomp(string1,string2): refers to comparing between two strings and also we use in code such as if, else if, else. the result there are such as: 0 if they are same, otherwise if they are different.
+	        for example: stringcomp("Hi","Hi")
+	                     ==> output: 0
+	                     stringcomp("My name is", "data science")
+	                     ==> output: otherwise
+    =>stringcopy(des, source): refers to copying a string and we use it to fix error in following condition.
+            for example: char name[20];
+                         name = "Dr.Kry SengHort";
+                        ==> Output: error.
+            for fix this error we use strcpy
+                         char name[20]
+                         strcpy(name="Dr.Kry SengHort");
+                        ==> Output: Dr.Kry SengHort
+    =>string2lowercase(string): covert string into lowercase for each character in string.
+            for example: string2lowercase("Hello")
+              			==>Output: "hello"
+            for example: string2lowercase("hello")
+                        ==>Output: "hello"
+    =>string2uppercase(string): convert string into uppercase for each character in string.
+            for example: string2uppercase("hello")
+                        ==>Output: "HELLO".
+************************************************************************************************************************************************************
+*************************************************************************************************************************************************************
+*************************************************************************************************************************************************************
+<==>Summary of Lesson:
+	==>Integer					: non-fractional number integer.
+	==>Real     				: real number float, double.
+	==>Character				: a single character written in a single quote' '.
+	==>Boolean  				: two conditions such as true or false value.
+	==>String   				: a sequence of characters written in a double quote" ".
+	==>Operators				: + , - , * , / , DIV, MOD
+	==>Relational Operators		: == , > , < , >= , <= , !=
+	==>Functions for Character  : next, prev(previous=before), ord(order), char(character).
+	==>Functions for String		: concate, length, substring, stringcmp(if, else if, else condition), stringcopy(strcpy), string2lowercase, string2uppercase.
+*************************************************************************************************************************************************************
+*************************************************************************************************************************************************************
+<==>Display Output: 
+	++Command printf()
+	  ==>for explanation printf("Message goes here");
+	                     printf("Message with Placeholder",variable);
+						 printf("Message with Placeholder",variable1,variable2,....);
+	++Placeholder:
+	              %d	: for integer number
+				  %f	: for float number
+				  %c	: for character
+				  %s	: for string or sequence of character.
+*************************************************************************************************************************************************************
+<==>Operator:
+	++Arithmetic Operator							: + , - , * , / , %
+	++Assignment Operator							: = , += , -= , /= , *=
+	++Comparison Operator/Relational Operator		: > , >= , == , < , <= , !=
+	++Logical Operator								: && , || , !
+	++Etc..........................................................................	
+*************************************************************************************************************************************************************
+#include<string.h>
+strupr(name)==>change name to capitalize letter.
+gets(name)==> use to get full name as space name.

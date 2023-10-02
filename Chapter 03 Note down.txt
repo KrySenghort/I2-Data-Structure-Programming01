@@ -1,0 +1,50 @@
+"Control Structure, there are two parts" 
+==> decision making: if , else if , else
+==> loop condition:  for , while , do-while ,  nested loop.
+***********************************************************************************************************************************************
+"Decision Making"
+==> .................................................
+==>we use loop for display and running the same properties data which got input by user.it will run until the condition become false. 
+if it is still true then it will be still running.
+==>"break" is used to give up or stop the running of code in condition statement at any location which we set up.
+***********************************************************************************************************************************************
+==>"Strcmp": is use to compare two strings to find the different of them.
+	for example:
+		gender
+		if(strcmp(gender,"Male")==0 && strcmp(age,"12")==0)	==>it mean that these two strigs are the same to each other.
+   "strlwr": use to convert string to uppercase letter or lowercase letter.
+==>Properties of library String:
+	- strcmp: use to compare between two strings.
+	- strcat: use to concatenate strings.
+	- strlwr: use to conver to lowercase.
+	- strupr: use to convert to uppercase.
+==>Functions:
+string Wide
+string Description[note 1]
+String manipulation	strcpy[9]		wcscpy[10]	Copies one string to another
+strncpy[11]			wcsncpy[12]		Writes exactly n bytes, copying from source or adding nulls
+strcat[13]			wcscat[14]		Appends one string to another
+strncat[15]			wcsncat[16]		Appends no more than n bytes from one string to another
+strxfrm[17]			wcsxfrm[18]		Transforms a string according to the current locale
+String examination	strlen[19]		wcslen[20]	Returns the length of the string
+strcmp[21]			wcscmp[22]		Compares two strings (three-way comparison)
+strncmp[23]			wcsncmp[24]		Compares a specific number of bytes in two strings
+strcoll[25]			wcscoll[26]		Compares two strings according to the current locale
+strchr[27]			wcschr[28]		Finds the first occurrence of a byte in a string
+strrchr[29]			wcsrchr[30]		Finds the last occurrence of a byte in a string
+strspn[31]			wcsspn[32]		Returns the number of initial bytes in a string that are in a second string
+strcspn[33]			wcscspn[34]		Returns the number of initial bytes in a string that are not in a second string
+strpbrk[35]			wcspbrk[36]		Finds in a string the first occurrence of a byte in a set
+strstr[37]			wcsstr[38]		Finds the first occurrence of a substring in a string
+strtok[39]			wcstok[40]		Splits a string into tokens
+Miscellaneous		strerror[41]	N/A	Returns a string containing a message derived from an error code
+Memory manipulation	memset[42]		wmemset[43]	Fills a buffer with a repeated byte
+memcpy[44]			wmemcpy[45]		Copies one buffer to another
+memmove[46]			wmemmove[47]	Copies one buffer to another, possibly overlapping, buffer
+memcmp[48]			wmemcmp[49]		Compares two buffers (three-way comparison)
+memchr[50]			wmemchr[51]		Finds the first occurrence of a byte in a buffer
+For wide string functions substitute wchar_t for "byte" in the description
+**************************************************************************************************
+while Vs do while loop.
+==> while : loop by checking condition at first and then run. if condition is false, it will not run.
+==> do while: loop by checking condition but it will run at least once time however, condition is false.

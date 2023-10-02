@@ -1,0 +1,35 @@
+=========>sub-program is a part of feature or functionality. 
+==>it is clear and readable code.
+==>reusability
+==>easy to test and find error
+==>helpful for team work
+=======================================================================================
+strlen: is used to count the number of character in any string or another.
+for example: strlen(name)==>output: 4 characters.
+=======================================================================================
+==>Local variable is the variable which is created into function or sub-program
+==>Global variable is the variable which is created inside the whole program.
+***************************************************************************************************
+++Function is a block of code that perform a specific task.
+we use to divide complex problems into small components make program easy to understand and use.
+==> type of function in C ,there are two types: 
+    - standard library functions: are built-in function C to handle tasks.such as mathematics computations, 
+	  I/O processing, strin handling..........etc.
+    - user defined functions: 
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

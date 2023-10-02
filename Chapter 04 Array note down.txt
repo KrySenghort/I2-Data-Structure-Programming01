@@ -1,0 +1,44 @@
+==>Array is a kind of data structure that stores many variables(elements) as a single special variable.each of varibles
+in an array is called an array element and they have the same variable type. We could have an array of integers or an
+array of characters or an array of anything else that has a defined data type. In addition, array starts from zero(th) position up forward.
+*******************************************************************************************************************************************
+==>we can declare an array by choosing :
+	- datatype of element in the array   int score[4343]
+	- number of elements in the array
+Ex: creating an array:
+	int num[20];
+	float score[10];
+	char name[50];
+	char subjects[5][100]; 5 is numbers of elements and each of element can store 100 character.
+*******************************************************************************************************************************************
+==>Array is different between each other with index or position.
+==>Array has two types:
+  - one dimensional array
+  - two dimensional array
+ 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
